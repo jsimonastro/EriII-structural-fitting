@@ -1,4 +1,4 @@
-# EriII-structural-fitting
+# Eridanus II Structural Fitting
 
 Structural fit to HST imaging of Eridanus II and its central star cluster (Simon et al. 2020)
 
