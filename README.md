@@ -4,7 +4,11 @@ Structural fit to HST imaging of Eridanus II and its central star cluster (Simon
 
 ## Installation
 
-This notebook depends on several python packages including: `numpy`, `matplotlib` and `emcee`. We recommend installing these through `conda`.
+This notebook depends on `numpy`, `matplotlib`, `astropy`, `emcee`, and `corner`. We recommend installing these through `conda` with something like this:
+
+```
+conda create -n eriII numpy matplotlib astropy emcee corner jupyter
+```
 
 ## Viewing
 
