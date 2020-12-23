@@ -16,6 +16,34 @@ Once the environment is installed, you should be able to download (or clone) the
 
 It is possible to view the content of this notebook on the web. If the notebook fails to render on GitHub directly, you can try using [nbviewer](https://nbviewer.jupyter.org/) and shown [here](https://nbviewer.jupyter.org/github/jsimonastro/EriII-structural-fitting/blob/main/mcmc_structural_fit_eri2_final.ipynb)
 
+## Contents of data table
+
+The file eri2.cat containing the HST photometry consists of 7 columns.  Columns 1 and 2 are the X and Y positions in the ACS image, columns 3 and 4 are the magnitudes and uncertainties in the F606W filter (in the STMAG system; https://hst-docs.stsci.edu/acsdhb/chapter-5-acs-data-analysis/5-1-photometry), columns 5 and 6 are the magnitudes and uncertainties in the F814W filter (in the STMAG system), and column 7 is the photometric quality flag.  Flag bits are: 1=fails chi criterion in F606W, 2=fails chi criterion in F814W, 4=fails sharp criterion in F606W, 8=fails sharp criterion in F814W, 16=bright neighbor within 4 pixels, 32=bright neighbor within 8 pixels, 64=bright neighbor within 12 pixels and 2.5 mag, 128=bright neighbor within 16 pixels and 2.5 mag, 256=bright neighbor within 20 pixels and 1.5 mag, 512=bright neighbor within 24 pixels and 1.5 mag, 1024=fails photometric uncertainty criterion in both bands.
+
+In order to convert the pixel positions to equatorial coordinates, the WCS information for the ACS image is:
+
+CD1_1   = -9.7207414806871E-06
+
+CD1_2   = 1.69676173695811E-07
+
+CD2_1   = 1.69676173695811E-07
+
+CD2_2   = 9.72074148068713E-06
+
+CRVAL1  =    56.09056245173978
+
+CRVAL2  =   -43.53022649816447
+
+CRPIX1  =    3951.096595646065
+
+CRPIX2  =    3922.701986935564
+
+CTYPE1  = 'RA---TAN'
+
+CTYPE2  = 'DEC--TAN'
+
+ORIENTAT=   0.9999999999999952                                                  
+
 ## Citation
 
 If you use this code, please cite Simon et al. (2020)
