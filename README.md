@@ -1,6 +1,8 @@
 # Eridanus II Structural Fitting
 
-Structural fit to HST imaging of Eridanus II and its central star cluster (Simon et al. 2020). This fit uses a binned Poisson maximum-likelihood framework, as described in Appendix C of [Drlica-Wagner et al. (2020)](https://arxiv.org/abs/1912.03302).
+by Josh Simon & Alex Drlica-Wagenr
+
+Structural fit to HST imaging of Eridanus II and its central star cluster ([Simon et al. 2021](https://arxiv.org/abs/2012.00043)). This fit uses a binned Poisson maximum-likelihood framework, as described in Appendix C of [Drlica-Wagner et al. (2020)](https://arxiv.org/abs/1912.03302).
 
 ## Installation
 
@@ -46,4 +48,4 @@ ORIENTAT=   0.9999999999999952
 
 ## Citation
 
-If you use this code, please cite Simon et al. (2020)
+If you use this code, please cite [Simon et al. (2021)](https://arxiv.org/abs/2012.00043)
