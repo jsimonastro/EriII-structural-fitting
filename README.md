@@ -48,4 +48,4 @@ ORIENTAT=   0.9999999999999952
 
 ## Citation
 
-If you use this code, please cite [Simon et al. (2021)](https://arxiv.org/abs/2012.00043)
+If you use this code, please cite [Simon et al. (2021)](https://arxiv.org/abs/2012.00043) and reference Appendix C of [Drlica-Wagner et al. (2020)](https://arxiv.org/abs/1912.03302) for the maximum likelihood method.
